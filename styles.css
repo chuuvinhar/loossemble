@@ -1,0 +1,54 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DC8E68;
+    padding: 10px;
+    color: white;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+body, html {
+    padding-top: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+video {
+    width: 100%;
+}
+.meu-botao {
+    background-color: transparent;
+    color: #DC8E68;
+    border-color: #DC8E68;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Montserrat;
+    position: absolute;
+    top: 70%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    z-index: 10; /* Garante que o botão fique acima do vídeo */
+
+    width: 120px;
+    height: 40px;
+  }
+.meu-botao:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+    
+}
+
+
+.section-base {
+    height: 400px;
+    
+}
+  
+.centralizado {
+    display: flex;
+    justify-content: center;
+    height: 400px; /* Altura do contêiner */
+}
